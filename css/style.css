@@ -19,6 +19,8 @@ submit#submit-button {
 }
 .need-vertical-margin {
     margin-bottom: 2em;
+    margin-top: 2em;
+
 }
 fieldset.need-vertical-margin {
     margin-top: 1em;
