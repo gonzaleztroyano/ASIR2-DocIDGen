@@ -1,0 +1,36 @@
+body {
+    padding: 2em;
+    padding-top: 1em;
+/*    border: 1px solid black; */
+}
+#header {
+    text-align: center;
+}
+.code-style span {
+    background-color: rgb(199, 194, 194);
+    padding: 7px 5px;
+}
+div#data-intro {
+    margin: 3em;
+}
+submit#submit-button {
+    display: block;
+    float:none
+}
+.need-vertical-margin {
+    margin-bottom: 2em;
+}
+fieldset.need-vertical-margin {
+    margin-top: 1em;
+}
+
+input#submit-button {
+    display: block;
+    align-self: 0 auto;
+
+}
+
+div#gen-result .code-style {
+    font-size: medium;
+    font-family: monospace;
+}
