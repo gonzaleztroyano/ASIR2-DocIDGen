@@ -19,8 +19,6 @@ submit#submit-button {
 }
 .need-vertical-margin {
     margin-bottom: 2em;
-    margin-top: 2em;
-
 }
 fieldset.need-vertical-margin {
     margin-top: 1em;
@@ -35,4 +33,41 @@ input#submit-button {
 div#gen-result .code-style {
     font-size: medium;
     font-family: monospace;
+}
+
+table {
+    width: 100%;
+    border: 1px solid;
+}
+th, td {
+    border: 1px solid;
+}
+
+
+td {
+    width: 50%;
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+#submit-button:hover {
+    font-weight: bolder;
+}
+.mid-center {
+    margin-left: 30%;
+}
+
+.number-input {
+    width: 12ch;
+}
+footer {
+    margin-left: 5%;
+    margin-top: 7%;
+    width: 90%;
+    text-align: center;
+    bottom: 0;
+    display:block;
+/*    position: absolute; */
+    font-weight: 200;
 }
